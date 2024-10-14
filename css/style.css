@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 20px;
+    font-size: 19px;
     display: grid;
     grid-template-rows: repeat(3 ,auto);
     row-gap: 25px;
@@ -283,10 +283,10 @@ footer{
 @media (max-width : 1200px){
     
         body{
-        font-size: 18px;
-        display: grid;
-        grid-template-rows: repeat(3 ,auto);
-        row-gap: 25px;
+            font-size: 17px;
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            row-gap: 25px;
     }
     
     header{
@@ -317,9 +317,9 @@ footer{
     .main_lists{
         display: flex;
         list-style: none;
-        width: 30%;
-        justify-content: space-between;
-        font-size: 0.9em;
+        width: 45%;
+        justify-content: space-evenly;
+        font-size: 1.1em;
         text-transform: capitalize;
         cursor: pointer;
     }
@@ -355,7 +355,7 @@ footer{
 @media (max-width : 900px)
     {
         body{
-        font-size: 16px;
+        font-size: 15px;
         display: grid;
         grid-template-rows: repeat(3 ,auto);
         row-gap: 25px;
@@ -363,8 +363,8 @@ footer{
     .main_lists{
         display: flex;
         list-style: none;
-        width: 46%;
-        justify-content: space-between;
+        width: 50%;
+        justify-content: space-evenly;
         font-size: 0.9em;
         text-transform: capitalize;
         cursor: pointer;
@@ -408,7 +408,7 @@ footer{
 }
 @media (max-width : 578px) {
     body{
-    font-size: 14px;
+    font-size: 13px;
     display: grid;
     grid-template-rows: repeat(3 ,auto);
     row-gap: 25px;
@@ -440,13 +440,13 @@ nav {
     font-weight: 700;
 }
 .main_lists{
-    display: flex;
-    list-style: none;
-    width: 70%;
-    justify-content: space-evenly;
-    font-size: 0.8em;
-    text-transform: capitalize;
-    cursor: pointer;
+        display: flex;
+        list-style: none;
+        width: 50%;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+        text-transform: capitalize;
+        cursor: pointer;
 }
 .user_ds{
     display: flex;
