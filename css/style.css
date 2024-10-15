@@ -33,7 +33,9 @@ nav {
     background-color: #dde;
 
 }
-
+.stars{
+    color : gold;
+}
 .logo::first-letter{
     font-size: 2.5em;
     font-style: italic;
