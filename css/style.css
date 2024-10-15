@@ -408,7 +408,7 @@ footer{
 }
 @media (max-width : 578px) {
     body{
-    font-size: 13px;
+    font-size: 12px;
     display: grid;
     grid-template-rows: repeat(3 ,auto);
     row-gap: 25px;
@@ -442,7 +442,7 @@ nav {
 .main_lists{
         display: flex;
         list-style: none;
-        width: 50%;
+        width: 55%;
         justify-content: space-evenly;
         font-size: 0.8em;
         text-transform: capitalize;
@@ -450,9 +450,9 @@ nav {
 }
 .user_ds{
     display: flex;
-    width: 12%;
+    width: 15%;
     justify-content: space-between;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .main-section{
     grid-row: 2;
@@ -488,7 +488,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 20px;
-    width: 50%;
+    width: 75%;
     margin: auto;
     margin-top: 5%;
 }
