@@ -20,6 +20,7 @@ var total = 0
 
 btns.forEach(function (btn , position) {
     btn.onclick = function (){
+        alert("Product added successfully")
         productName = productsNames[position].textContent
         productPrice = productsPrices[position].getAttribute("price")
         counts++
